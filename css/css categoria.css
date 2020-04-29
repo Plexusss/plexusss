@@ -1,9 +1,116 @@
 /*css categoria*/
-body {
-    font-family: san -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
-  }
 
+body {
+  font-family: san -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 2 px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+/*ACA VA EL ESPACIO ENTRE COLUMNAS*/
+.left,
+.middle,
+.right {
+  padding: 60px;
+  
+  /*height: 300px; /* Should be removed. Only for demonstration */
+}
+/*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+/*ACÁ VA EL CONTENIDO*/
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+ 
+}
+#este{
+max-width: 60%;
+}
+
+/*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color:#c4c4c4;
+  padding: 10px;
+  text-align: center;
+}
+#horizontal {
+  float: left;
+  display: block;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+
+/*CIRCULITOS*/
+#info {
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-categoria {
+	margin: 20px;
+}
+
+.info-categoria img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+@media (min-width:480px) {
+	.info-pet {
+		width: 40%;
+	}
+}
+
+@media (min-width:1024px) {
+	.info-pet {
+		width: auto;
+	}
+}
 /*barra de navegación*/
 
 * {box-sizing: border-box;}
@@ -17,7 +124,7 @@ body {
   overflow: hidden;
   background-color: #C4C4C4;
 }
-/*BOTONES*/
+    /*BOTONES*/
 
 .topnav a {
   float: left;
@@ -81,3 +188,7 @@ body {
     border: 1px solid #ccc;  
   }
 }
+
+
+  
+  /**/
