@@ -46,9 +46,7 @@ body {
 #este{
 max-width: 60%;
 }
-.url{
-  color: #636363;
-}
+
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the right column */
 .right {
@@ -72,7 +70,7 @@ max-width: 60%;
   float: left;
   display: block;
   max-width: 300px;
-  
+  padding: 30px;
 }
 
 .ayuda-footer{
