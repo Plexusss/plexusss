@@ -49,6 +49,22 @@ max-width: 60%;
   font-size: 10pt;
 }
 
+
+
+.contenedor3{
+  float: left;
+  display: block;
+  max-width: 33%;
+  padding: 50px;
+
+}
+.contenedor2{
+  float: left;
+  display: block;
+  max-width: 66%;
+  padding: 50px;
+}
+
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the right column */
 .right {
