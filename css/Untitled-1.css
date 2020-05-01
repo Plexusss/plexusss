@@ -44,7 +44,7 @@ body {
  
 }
 #este{
-max-width: 60%;
+max-width: 48%;
 }
 
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
@@ -70,7 +70,7 @@ max-width: 60%;
   float: left;
   display: block;
   max-width: 300px;
-  padding: 30px;
+   padding: 30px;
 }
 
 .ayuda-footer{
