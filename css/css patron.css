@@ -44,7 +44,7 @@ body {
    
   }
   #este{
-  max-width: 60%;
+      max-width: 48%;
   }
   
   /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
@@ -63,6 +63,17 @@ body {
   #horizontal {
     float: left;
     display: block;
+  }
+  .contenedor3{
+    display: inline-grid;
+    max-width: 48%;
+    margin-right: 15px;
+    
+  }
+  .contenedor2{
+    display: inline-grid;
+    width: 48%;
+   
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
