@@ -2,25 +2,28 @@
 
 
 .centrado{
-  display:flex;
+  display: flexbox;
   margin-left: auto;
   margin-right: auto;
-  background-color:white
+  text-align: center;
+  background-color:white;
+  padding-top: 4%;
 }
 
-img.{
- 
-}
-
-
-
-
-
-}
-}
-body {}
-
-
-
-
-
+body{
+  background:white
+  }
+  h1{
+    text-align: center;
+   color:black;
+   font-size: 7em;
+   font-family: 'SF UI Display', "Helvetica Neue", Helvetica, sans-serif;
+   padding: 0%;
+  }
+  h2{
+    color:#9D9494;
+   font-size: 1em;
+   text-trasnform:uppercase;
+   transform:translateY(-200%) translateX(0%);
+   font-family: 'SF UI Display', "Helvetica Neue", Helvetica, sans-serif;
+   
