@@ -44,11 +44,46 @@ body {
 .middle {
   grid-area: middle;
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
-  font-size: 17px ;
+  font-size: 16,7px ;
 }
 #este{
 max-width: 48%;
 }
+
+
+
+h1{
+  
+ color:black;
+ font-size: 23px;
+ padding: 0%;
+
+}
+
+h2{
+  
+  color:black;
+  font-size: 27px;
+  padding: 0%;
+ }
+ 
+ h3{
+ 
+ font-size: 22px;
+ text-trasnform:uppercase;
+
+
+}
+h4{
+  font-size:17px ;
+  color:#9D9494;
+}
+ 
+img{
+  padding-top:0% ;   
+  transform:translate(0px,40px)  
+}
+
 
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the right column */
@@ -92,6 +127,8 @@ color: #fff;
       'right right right right right right' 
       'footer footer footer footer footer footer';
   }
+  
+ 
 }
 
 /*CIRCULITOS*/
