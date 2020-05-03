@@ -1,5 +1,6 @@
- /* Style the header */
- .header {
+/*css de los ejemplos*/
+  /* Style the header */
+  .header {
     grid-area: header;
     background-color: #f1f1f1;
     padding: 2 px;
@@ -224,3 +225,5 @@
   }
   
   
+    
+    /**/
