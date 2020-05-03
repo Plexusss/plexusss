@@ -7,7 +7,7 @@
   margin-right: auto;
   text-align: center;
   background-color:white;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 body{
@@ -16,14 +16,25 @@ body{
   h1{
     text-align: center;
    color:black;
-   font-size: 7em;
+   font-size: 120px;
    font-family: 'SF UI Display', "Helvetica Neue", Helvetica, sans-serif;
    padding: 0%;
+ 
+  
   }
   h2{
     color:#9D9494;
-   font-size: 1em;
+   font-size: 16px;
    text-trasnform:uppercase;
-   transform:translateY(-200%) translateX(0%);
+   transform:translateY(-400%) translateX(0%);
    font-family: 'SF UI Display', "Helvetica Neue", Helvetica, sans-serif;
-   
+
+  }
+  
+  
+   img{
+  padding-top:0% ;   
+  transform:translate(0px,-50px)  
+
+
+   }
