@@ -1,10 +1,7 @@
 /*css categoria*/
 
 body {
-  
-
-
-}  
+  }  
 
 /* Style the header */
 .header {
@@ -24,33 +21,34 @@ body {
     'footer footer footer footer footer footer';
   /* grid-column-gap: 10px; - if you want gap between the columns */
 } 
+
 /*ACA VA EL ESPACIO ENTRE COLUMNAS*/
 .left,
 .middle,
 .right {
   padding: 60px;
-  
-  /*height: 300px; /* Should be removed. Only for demonstration */
+   /*height: 300px; /* Should be removed. Only for demonstration */
 }
+
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the left column */
 .left {
   grid-area: left;
 }
+
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
 .middle {
   grid-area: middle;
-  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
-  font-size: 12px;
+  font-size:11px;
+  }
   
-}
 #este{
 max-width: 48%;
 }
 #migas{
-  font-size:11px;
-
+ font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
+ 
 }
 
 .contenedor3{
@@ -180,6 +178,10 @@ body {
   font-size: 17px;
   border: none;
   cursor: pointer;
+}
+h5
+{
+  font-size: 12px;
 }
 
 .topnav .search-container button:hover {

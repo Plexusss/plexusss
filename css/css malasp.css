@@ -5,7 +5,7 @@
     background-color: #f1f1f1;
     padding: 2 px;
     text-align: center;
-    font-size: 35px;
+  
   }
   
   /* The grid container */
@@ -17,6 +17,26 @@
       'footer footer footer footer footer footer';
     /* grid-column-gap: 10px; - if you want gap between the columns */
   } 
+
+
+  #migas{
+
+    font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
+        
+    h1{
+    font size:10px;
+    }
+    h2{
+      font size:34px;
+    }
+    h3{
+    font-size:10px ;
+    }
+
+  }
+
+
+
   /*ACA VA EL ESPACIO ENTRE COLUMNAS*/
   .left,
   .middle,
@@ -35,12 +55,14 @@
   .middle {
     grid-area: middle;
     font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
-    font-size: 17px ;
+    font-size: 13px ;
    
   }
   #este{
       max-width: 48%;
+      font-size:16,7px ;
   }
+
   
   #boton{
     display: inline-flexbox;
@@ -79,6 +101,7 @@
     width: 48%;
    
   }
+
   
   /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
   /* Style the right column */
@@ -152,7 +175,7 @@
   
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+
   }
   
   .topnav {
@@ -225,5 +248,48 @@
   }
   
   
+  .slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
     
+    animation: cambio 20s infinite alternate linear;
+  }
+  
+  .slider li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider img  {
+    width: 75%;
+    
+
+ 
+    
+  }
+  
+  @keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
     /**/
+
+
+
+   
