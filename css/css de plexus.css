@@ -41,6 +41,7 @@ body {
 }
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
+
 .middle {
   grid-area: middle;
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
@@ -77,11 +78,6 @@ h2{
 h4{
   font-size:17px ;
   color:#9D9494;
-}
- 
-img{
-  padding-top:0% ;   
-  transform:translate(0px,40px)  
 }
 
 
