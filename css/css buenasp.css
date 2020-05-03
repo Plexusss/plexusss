@@ -228,40 +228,40 @@
     
     /**/
     
-    .galeria {
-      height: calc( 300px + 3em);
-      width: 260px;
-      margin:1em auto;
-      border: 1px solid #555;
-      position: relative;  
+    .slider {
+      width: 95%;
+      margin: auto;
+      overflow: hidden;
     }
     
-    .galeria img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      transition: opacity 3s;
+    .slider ul {
+      display: flex;
+      padding: 0;
+      width: 100%;
+      
+      animation: cambio 20s infinite alternate linear;
     }
     
-    .galeria input[type=radio] {
-      position: relative;
-      bottom: calc(-300px - 1.5em);
-      left: .5em;
+    .slider li {
+      width: 100%;
+      list-style: none;
     }
     
-    .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
-      opacity: 1;
+    .slider img {
+      width: 100%;
     }
     
-    .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
-      opacity: 1;
+    @keyframes cambio {
+      0% {margin-left: 0;}
+      20% {margin-left: 0;}
+      
+      25% {margin-left: -100%;}
+      45% {margin-left: -100%;}
+      
+      50% {margin-left: -200%;}
+      70% {margin-left: -200%;}
+      
+      75% {margin-left: -300%;}
+      100% {margin-left: -300%;}
     }
     
-    .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
-      opacity: 1;
-    }
-    
-    .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
-      opacity: 1;
-    }
