@@ -30,23 +30,22 @@
 		</header>
 	  </div>
 <!--COLUMNA IZQUIERDA-->
-<div class="left" style="background-color:#F3F3F3;">
+<div class="left" style="background-color:#F3F3F3;"></div>
 
 <!--CONTENIDO-->
     <div class="middle" style="background-color:#F3F3F3;">
 
 
       
-      <h1>Formulario Añadir Categoria</h1>
+      <h1>Formulario Añadir Categoría</h1>
 
         
-      <p id="migas">Inicio >participa > Colabora y Aporta > Formulario Caso Patrón > Formulario de Añadir Patrón > <b href="#contact">Formulario añadir una categoria</b></p>
-          
+      <p id="migas"><a href="html-plexus.html">Inicio </a> > <a href="participa.html"> Participa </a> > <a href="Agregar caso.html"> Formulario Caso de Patrón </a> > <a href="Agregar patrones.html"> Formulario Patrón </a> > <b>Formulario Categoría </b></p>       
       
   
-          <p id="este"><img src="imagenes/colaborar.png"width="30" height="30"> <h4>¿Deseas añadir una categoría?</h4></p>
+         <h4>¿Deseas añadir una categoría?</h4>
   
-  
+         <form action="ejemplo.php" method="get">
           <div class="contenedor3">
     
            <p>Nombre de la categoría:</p>
@@ -178,27 +177,39 @@
         
 <br><input type="checkbox" name="Gestion de cuenta" value="5"> Desbloquear características
 
-          
+       
  </div>
  </div>
-                   
+
+
+ <div class="contenedor2">
+  <table>
+    <input type="button" onclick="mensaje('Hemos recibimos tu formulario. ¡Gracias por colaborar con nuestra comunidad!')" value="Enviar formulario">
+
+    <script>
+      function mensaje(texto) {
+        alert(texto);
+      }
+    </script>
+    <tr>
+    <input type="reset" value="Borrar">
+      
+</table>
+<p>¡Muchas gracias por colaborar con nosotros!</p>
+<a href="html-plexus.html">Volver al inicio  </a>
+</div>
+
+<div class="contenedor2">
+
+<p>Etiquetas: Participar, formulario, enviar, patrones, partituras, pantallas </p>
+
+</div>
+
+</form>                 
 </section>
 
-  
-    <div class="contenedor2">
-        <table>
-     <td id="boton">Entregar formulario</td>
-    </table>
-     <p>¡Muchas gracias por colaborar con nosotros!</p>
-
   </div>
-    
-  <div class="contenedor2">
-      
-      <p>Etiquetas: Participar, formulario, enviar, patrones, partituras, pantallas </p>
   
-    </div>
-
  
  <!--COLUMNA DERECHA-->
  <div class="right" style="background-color:#F3F3F3;"></div>
