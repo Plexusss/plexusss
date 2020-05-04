@@ -45,6 +45,17 @@
     font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
   
   }
+  h1{
+    font-size:28px ;
+  }
+  h2{
+    font-size: 22px;
+
+  }
+  h3{
+ font-size: 18px;
+
+  }
   #este{
       max-width: 48%;
       font-size: 16,8px ;
