@@ -43,11 +43,12 @@ body {
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
   font-size: 16,7px ;
 }
+
 #este{
 max-width: 48%;
+color:black;
+ font-size: 17px;
 }
-
-
 
 h1{
   
