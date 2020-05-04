@@ -43,13 +43,11 @@
   .middle {
     grid-area: middle;
     font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
-    font-size: 17px ;
-   
+  
   }
   #este{
       max-width: 48%;
-      color:black;
-      font-size: 17px;
+      font-size: 16,8px ;
   }
   
   #boton{
@@ -61,7 +59,8 @@
     width: 340px;
     height: 50px;
     border-radius: 20px;
-    padding-left: 200px;
+    text-align: left;
+    padding-left: 40px;
   }
  
   
@@ -72,15 +71,16 @@
     background: #C4C4C4;
     width: 340px;
     height: 50px;
-    border-radius: 20px;
+    border-radius:20px;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 40px;
   }
     
   .contenedor3{
     display: inline-grid;
     max-width: 48%;
     margin-right: 15px;
+  
     
   }
   
@@ -88,6 +88,11 @@
     display: inline-grid;
     width: 48%;
    
+  }
+
+  #migas
+  {
+    font-size: 13px;
   }
   
   /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/

@@ -50,14 +50,20 @@ h1{
 }
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
+#migas
+{
+  font-size: 13px;
+}
+
 .middle {
   grid-area: middle;
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
-  font-size: 13px ;
+
  
 }
 #este{
     max-width: 48%;
+    font-size: 16,8px;
 }
 
 #boton{
