@@ -1,6 +1,8 @@
 /*acá irá el css de plexus*/
 
 body {
+  background-image: url('imagenes/fondos/fondo inicio.png');
+  background-color: #cccccc;
   }
 
 
@@ -70,8 +72,6 @@ h2{
  
  font-size: 22px;
  text-trasnform:uppercase;
-
-
 }
 h4{
   font-size: 16px;
