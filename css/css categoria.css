@@ -40,13 +40,16 @@ body {
 /* Style the middle column */
 .middle {
   grid-area: middle;
-  font-size:11px;
-  }
+    }
   
 #este{
 max-width: 48%;
+font-size: 16,8px;
 }
 #migas{
+ 
+  font-size: 13px;
+
  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
  
 }
