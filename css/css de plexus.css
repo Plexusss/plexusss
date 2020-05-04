@@ -38,16 +38,18 @@ body {
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
 
+
 .middle {
   grid-area: middle;
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
   font-size: 16,7px ;
 }
+
 #este{
 max-width: 48%;
+color:black;
+ font-size: 16,8px;
 }
-
-
 
 h1{
   
