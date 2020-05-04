@@ -101,18 +101,32 @@
     grid-area: right;
   }
   
-  /* Style the footer */
-  .footer {
-    grid-area: footer;
-    background-color:#c4c4c4;
-    padding: 10px;
-    text-align: center;
-  }
-  #horizontal {
-    float: left;
-    display: block;
-  }
-  
+ /* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color:#c4c4c4;
+  padding: 5px;
+  text-align: center;
+}
+#horizontal {
+  float: left;
+  display: block;
+  padding: 30px;
+}
+
+#horizontal1 {
+  float: left;
+  display: block;
+  max-width: 300px;
+   padding: 30px;
+}
+
+.ayuda-footer{
+  float: right;
+  display: block;
+max-width: 100px;
+color: #fff;
+}
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
