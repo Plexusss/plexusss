@@ -40,20 +40,35 @@ body {
 /* Style the middle column */
 .middle {
   grid-area: middle;
-    }
+   }
   
 #este{
 max-width: 48%;
-font-size: 16,8px;
+font-size: 16,8px ;
 }
 #migas{
- 
-  font-size: 13px;
-
  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
+ font-size:13px;
  
 }
 
+h1{
+  font-size:28px;
+}
+
+h2{
+  font-size:22px;
+}
+
+
+h3{
+  font-size: 18px;
+}
+
+h6{
+  font-size:17px;
+  color: #c4c4c4;
+}
 .contenedor3{
   display: inline-block;
   max-width: 33%;

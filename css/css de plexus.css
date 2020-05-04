@@ -54,7 +54,7 @@ color:black;
 h1{
   
  color:black;
- font-size: 23px;
+ font-size: 22px;
  padding: 0%;
 
 }
@@ -62,7 +62,7 @@ h1{
 h2{
   
   color:black;
-  font-size: 27px;
+  font-size: 28px;
   padding: 0%;
  }
  
@@ -74,8 +74,9 @@ h2{
 
 }
 h4{
-  font-size:17px ;
-  color:#9D9494;
+  font-size: 16px;
+  color:#C4C4C4;
+
 }
 
 
