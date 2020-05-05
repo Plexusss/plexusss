@@ -17,7 +17,11 @@
     'footer footer footer footer footer footer';
   /* grid-column-gap: 10px; - if you want gap between the columns */
 } 
+#migas{
 
+  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
+      
+}
 
 
 
@@ -29,7 +33,6 @@
   
   /*height: 300px; /* Should be removed. Only for demonstration */
 }
-
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the left column */
 .left {
@@ -37,7 +40,10 @@
 }
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
-
+#migas
+{
+  
+}
 h1{
   font-size:28px;
   }
@@ -266,8 +272,6 @@ background: #ccc;
   border: 1px solid #ccc;  
 }
 }
-
-
 /* Style the footer */
 .footer {
   grid-area: footer;
