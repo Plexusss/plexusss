@@ -119,7 +119,7 @@ h1{
 /* Style the footer */
 .footer {
   grid-area: footer;
-  background-color:#c4c4c4;
+  background-color:#1E2E39;
   padding: 10px;
   text-align: center;
 }
