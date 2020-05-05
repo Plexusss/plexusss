@@ -83,6 +83,10 @@ h4{
 
 }
 
+
+
+}
+
 .centrado{
   display: flexbox;
   margin-left: auto;
@@ -130,6 +134,8 @@ max-width: 100px;
 color: #fff;
 color: #1E2E39;
 }
+
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .grid-container  {
