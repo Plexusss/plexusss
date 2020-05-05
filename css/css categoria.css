@@ -46,12 +46,13 @@
 max-width: 48%;
 font-size: 16,8px ;
 line-height: 19px;
+margin-top:10px;
 }
 
 #migas{
  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
  font-size:13px;
- -webkit-transform: translate(0,-11px);
+ -webkit-transform: translate(0,-3px);
 }
 
 h1{
@@ -65,7 +66,7 @@ h2{
 
 
 h3{
-  font-size: 18px;
+  font-size: 16,8px;
   line-height: 20px;
 }
 
@@ -73,11 +74,17 @@ h6{
   font-size:17px;
   color: #c4c4c4;
 }
+h8{
+  font-size: 16,8
+  -webkit-transform: translate(0,-3px);
+  ;
+}
 
 .contenedor3{
   display: inline-block;
   max-width: 33%;
   padding: 50px;
+  -webkit-transform: translate(0,20px);
   
 }
 .contenedor2{
@@ -86,6 +93,8 @@ h6{
   padding: 50px;
   max-height: 325px;
 }
+
+
 
 #boton{
   display: inline-flexbox;
