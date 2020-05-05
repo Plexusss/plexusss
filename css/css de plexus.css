@@ -78,7 +78,7 @@ h2{
 }
 h4{
   font-size: 16px;
-  color:#1E2E39;
+  color:#1E2E39
   line-height: 55px;
 
 }
@@ -118,7 +118,7 @@ h4{
   float: left;
   display: block;
   padding: 30px;
-  color: #1E2E39;
+  color: #C4C4C4;
 }
 
 #horizontal1 {
@@ -126,7 +126,7 @@ h4{
   display: block;
   max-width: 300px;
    padding: 30px;
-   color: #1E2E39;
+   color: #C4C4C4;
 }
 
 .ayuda-footer{
