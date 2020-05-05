@@ -91,8 +91,9 @@ h6{
   display: inline-flexbox;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: #1E2E39;
   text-align: center;
+  color: #C4C4C4;
   width: 340px;
   height: 50px;
   padding: 15px;
@@ -110,7 +111,7 @@ h6{
 /* Style the footer */
 .footer {
   grid-area: footer;
-  background-color:#c4c4c4;
+  background-color:#1E2E39;
   columns: #c4c4c4;
   padding: 5px;
   text-align: center;
@@ -119,7 +120,7 @@ h6{
   float: left;
   display: block;
   padding: 30px;
-  color: #1E2E39;
+  color: #C4C4C4;
 }
 
 #horizontal1 {
@@ -127,7 +128,7 @@ h6{
   display: block;
   max-width: 300px;
    padding: 30px;
-   color: #1E2E39;
+   color: #C4C4C4;
 }
 
 .ayuda-footer{
