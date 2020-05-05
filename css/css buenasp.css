@@ -94,7 +94,7 @@ h1{
   display: inline-flexbox;
   margin-top: 8px;
   margin-right: 16px;
-  background: #C4C4C4;
+  background: ##1E2E39;
   width: 340px;
   height: 50px;
   border-radius: 20px;
@@ -125,8 +125,8 @@ h1{
 /* Style the footer */
 .footer {
   grid-area: footer;
-  background-color:#c4c4c4;
-  padding: 10px;
+  background-color:#1E2E39;
+  padding: 5px;
   text-align: center;
 }
 #horizontal {
