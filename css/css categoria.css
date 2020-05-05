@@ -69,6 +69,7 @@ h6{
   font-size:17px;
   color: #c4c4c4;
 }
+
 .contenedor3{
   display: inline-block;
   max-width: 33%;
@@ -106,6 +107,7 @@ h6{
 .footer {
   grid-area: footer;
   background-color:#c4c4c4;
+  columns: #c4c4c4;
   padding: 5px;
   text-align: center;
 }

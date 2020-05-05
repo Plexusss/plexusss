@@ -22,8 +22,6 @@
 
  
 
-
-
   /*ACA VA EL ESPACIO ENTRE COLUMNAS*/
   .left,
   .middle,
@@ -32,6 +30,7 @@
     
     /*height: 300px; /* Should be removed. Only for demonstration */
   }
+
   /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
   /* Style the left column */
   .left {
@@ -110,37 +109,7 @@ margin-top: 10px;
   .right {
     grid-area: right;
   }
-  
- /* Style the footer */
-.footer {
-  grid-area: footer;
-  background-color:#c4c4c4;
-  padding: 5px;
-  text-align: center;
-}
-#horizontal {
-  float: left;
-  display: block;
-  padding: 30px;
-  color: #1E2E39;
-}
 
-#horizontal1 {
-  float: left;
-  display: block;
-  max-width: 300px;
-   padding: 30px;
-   color: #1E2E39;
-}
-
-.ayuda-footer{
-  float: right;
-  display: block;
-max-width: 100px;
-color: #fff;
-color: #1E2E39;
-}
-  
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
@@ -270,7 +239,37 @@ h5
     border: 1px solid #ccc;  
   }
 }
+  
+ /* Style the footer */
+ .footer {
+  grid-area: footer;
+  background-color:#c4c4c4;
+  padding: 10px;
+  text-align: center;
+}
+#horizontal {
+  float: left;
+  display: block;
+  padding: 30px;
+  color: #1E2E39;
+}
 
+#horizontal1 {
+  float: left;
+  display: block;
+  max-width: 300px;
+   padding: 30px;
+   color: #1E2E39;
+}
+
+.ayuda-footer{
+  float: right;
+  display: block;
+max-width: 100px;
+color: #fff;
+color: #1E2E39;
+}
+  
     
     /**/
     
