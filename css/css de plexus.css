@@ -1,7 +1,6 @@
 /*acá irá el css de plexus*/
 
-body {
-  }
+
 
 
 /* Style the header */
@@ -34,6 +33,7 @@ body {
 /* Style the left column */
 .left {
   grid-area: left;
+
 }
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
@@ -44,6 +44,7 @@ body {
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
   font-size: 16,7px ;
 }
+
 
 #este{
 max-width: 48%;
@@ -69,8 +70,6 @@ h2{
  h3{
  
  font-size: 22px;
- text-trasnform:uppercase;
-
 
 }
 h4{
