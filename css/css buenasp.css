@@ -22,6 +22,8 @@
 
  
 
+
+
   /*ACA VA EL ESPACIO ENTRE COLUMNAS*/
   .left,
   .middle,
@@ -30,7 +32,6 @@
     
     /*height: 300px; /* Should be removed. Only for demonstration */
   }
-
   /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
   /* Style the left column */
   .left {
@@ -44,7 +45,6 @@
   }
 
   .middle {
-
     grid-area: middle;
     font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
    
@@ -60,7 +60,6 @@
     font-size:18px ;
     }
   #este{
-margin-top: 10px;
       max-width: 48%;
       font-size: 16,8px;
   }
@@ -109,7 +108,19 @@ margin-top: 10px;
   .right {
     grid-area: right;
   }
-
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color:#c4c4c4;
+    padding: 10px;
+    text-align: center;
+  }
+  #horizontal {
+    float: left;
+    display: block;
+  }
+  
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
@@ -169,14 +180,14 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color:  #1E2E39;
+  background-color: #C4C4C4;
 }
     /*BOTONES*/
 
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: rgb(59, 59, 59);
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
@@ -239,19 +250,17 @@ h5
     border: 1px solid #ccc;  
   }
 }
-  
- /* Style the footer */
- .footer {
+/* Style the footer */
+.footer {
   grid-area: footer;
   background-color:#c4c4c4;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 #horizontal {
   float: left;
   display: block;
   padding: 30px;
-  color: #1E2E39;
 }
 
 #horizontal1 {
@@ -259,7 +268,6 @@ h5
   display: block;
   max-width: 300px;
    padding: 30px;
-   color: #1E2E39;
 }
 
 .ayuda-footer{
@@ -267,7 +275,6 @@ h5
   display: block;
 max-width: 100px;
 color: #fff;
-color: #1E2E39;
 }
   
     
