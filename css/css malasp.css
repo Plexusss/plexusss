@@ -43,6 +43,7 @@
 #migas
 {
   font-size:13px ;
+ 
 }
 h1{
   font-size:28px;
@@ -55,9 +56,6 @@ h1{
   h3{
   font-size:18px ;
   }
-{
-  font-size: 13px;
-}
 
 .middle {
   grid-area: middle;
