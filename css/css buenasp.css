@@ -45,6 +45,7 @@
   }
 
   .middle {
+
     grid-area: middle;
     font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
    
@@ -60,6 +61,7 @@
     font-size:18px ;
     }
   #este{
+margin-top: 10px;
       max-width: 48%;
       font-size: 16,8px;
   }

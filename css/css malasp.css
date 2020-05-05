@@ -61,6 +61,7 @@ h1{
  
 }
 #este{
+    margin-top:10px;
     max-width: 48%;
     font-size: 16,8px;
 }
@@ -91,6 +92,7 @@ h1{
 }
   
 .contenedor3{
+  margin-top: 15px;
   display: inline-grid;
   max-width: 48%;
   margin-right: 15px;

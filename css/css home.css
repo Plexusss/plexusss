@@ -42,3 +42,16 @@ body{
 
 
    }
+  #boton{
+    display: inline-flexbox;
+    margin-top: 15px;
+    margin-right: 16px;
+    background: #E1E1E1;
+    text-align: left;
+    width: 340px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 40px;
+  }
+ 
