@@ -113,6 +113,7 @@ h6{
   float: left;
   display: block;
   padding: 30px;
+  color: #1E2E39;
 }
 
 #horizontal1 {
@@ -120,6 +121,7 @@ h6{
   display: block;
   max-width: 300px;
    padding: 30px;
+   color: #1E2E39;
 }
 
 .ayuda-footer{
@@ -127,6 +129,7 @@ h6{
   display: block;
 max-width: 100px;
 color: #fff;
+color: #1E2E39;
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
@@ -152,14 +155,14 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #C4C4C4;
+  background-color: #1E2E39;
 }
     /*BOTONES*/
 
 .topnav a {
   float: left;
   display: block;
-  color: rgb(59, 59, 59);
+  color: white;
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
