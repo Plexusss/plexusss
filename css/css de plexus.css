@@ -86,7 +86,7 @@ h4{
   padding-top: -40%;
 }
 
-}
+
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the right column */
 .right {
@@ -97,10 +97,11 @@ h4{
 
 .footer {
   grid-area: footer;
-  background-color: #c4c4c4;
+  background-color:#c4c4c4;
   padding: 5px;
   text-align: center;
 }
+
 #horizontal {
   float: left;
   display: block;
