@@ -115,7 +115,7 @@
  /* Style the footer */
 .footer {
   grid-area: footer;
-  background-color:#c4c4c4;
+  background-color:#1E2E39;
   padding: 5px;
   text-align: center;
 }
@@ -123,7 +123,7 @@
   float: left;
   display: block;
   padding: 30px;
-  color: #1E2E39;
+  color: #C4C4C4;
 }
 
 #horizontal1 {
@@ -131,7 +131,7 @@
   display: block;
   max-width: 300px;
    padding: 30px;
-   color: #1E2E39;
+   color: #C4C4C4;
 }
 
 .ayuda-footer{
