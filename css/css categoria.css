@@ -69,6 +69,7 @@ h6{
   font-size:17px;
   color: #c4c4c4;
 }
+
 .contenedor3{
   display: inline-block;
   max-width: 33%;
@@ -106,6 +107,7 @@ h6{
 .footer {
   grid-area: footer;
   background-color:#c4c4c4;
+  columns: #c4c4c4;
   padding: 5px;
   text-align: center;
 }
@@ -113,6 +115,7 @@ h6{
   float: left;
   display: block;
   padding: 30px;
+  color: #1E2E39;
 }
 
 #horizontal1 {
@@ -120,6 +123,7 @@ h6{
   display: block;
   max-width: 300px;
    padding: 30px;
+   color: #1E2E39;
 }
 
 .ayuda-footer{
@@ -127,6 +131,7 @@ h6{
   display: block;
 max-width: 100px;
 color: #fff;
+
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
@@ -152,14 +157,14 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #C4C4C4;
+  background-color: #1E2E39;
 }
     /*BOTONES*/
 
 .topnav a {
   float: left;
   display: block;
-  color: rgb(59, 59, 59);
+  color: white;
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
