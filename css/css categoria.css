@@ -45,15 +45,18 @@
 #este{
 max-width: 48%;
 font-size: 16,8px ;
+line-height: 19px;
 }
+
 #migas{
  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
  font-size:13px;
- 
+ -webkit-transform: translate(0,-11px);
 }
 
 h1{
   font-size:28px;
+  line-height: 20px;
 }
 
 h2{
@@ -63,6 +66,7 @@ h2{
 
 h3{
   font-size: 18px;
+  line-height: 20px;
 }
 
 h6{
