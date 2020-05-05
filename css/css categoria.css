@@ -1,7 +1,6 @@
 /*css categoria*/
 
-body {
-  }  
+
 
 /* Style the header */
 .header {
@@ -40,6 +39,7 @@ body {
 /* Style the middle column */
 .middle {
   grid-area: middle;
+  font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
    }
   
 #este{
