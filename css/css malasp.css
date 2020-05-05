@@ -21,19 +21,9 @@
 
   font-family:SF UI Display,Verdana, Georgia, Times, 'Times New Roman', sans-serif;
       
-  
-
 }
 
-h1{
-  font-size:28px;
-  }
-  h2{
-    font-size:23px;
-  }
-  h3{
-  font-size:18px ;
-  }
+
 
 /*ACA VA EL ESPACIO ENTRE COLUMNAS*/
 .left,
@@ -51,6 +41,15 @@ h1{
 /*ACÁ VA EL CONTENIDO*/
 /* Style the middle column */
 #migas
+h1{
+  font-size:28px;
+  }
+  h2{
+    font-size:23px;
+  }
+  h3{
+  font-size:18px ;
+  }
 {
   font-size: 13px;
 }
@@ -70,7 +69,7 @@ h1{
   display: inline-flexbox;
   margin-top: 8px;
   margin-right: 16px;
-  background: #E1E1E1;
+  background: #ddd;
   text-align: left;
   width: 340px;
   height: 50px;
@@ -120,6 +119,23 @@ h1{
 #horizontal {
   float: left;
   display: block;
+  padding: 30px;
+  color: #1E2E39;
+}
+#horizontal1 {
+  float: left;
+  display: block;
+  max-width: 300px;
+   padding: 30px;
+   color: #1E2E39;
+}
+
+.ayuda-footer{
+  float: right;
+  display: block;
+max-width: 100px;
+color:#fff;
+color: #1E2E39;
 }
 
 
@@ -181,14 +197,14 @@ font-family: Arial, Helvetica, sans-serif;
 
 .topnav {
 overflow: hidden;
-background-color: #C4C4C4;
+background-color: #1E2E39;
 }
   /*BOTONES*/
 
 .topnav a {
 float: left;
 display: block;
-color: rgb(59, 59, 59);
+color:white;
 text-align: center;
 padding: 14px 50px;
 text-decoration: none;
@@ -253,15 +269,20 @@ background: #ccc;
 }
 /* Style the footer */
 .footer {
-grid-area: footer;
+  grid-area: footer;
 background-color:#c4c4c4;
 padding: 5px;
 text-align: center;
+}
+
 }
 #horizontal {
 float: left;
 display: block;
 padding: 30px;
+color: #1E2E39;
+
+
 }
 
 #horizontal1 {
@@ -269,6 +290,7 @@ float: left;
 display: block;
 max-width: 300px;
  padding: 30px;
+   color: #1E2E39;
 }
 
 .ayuda-footer{
