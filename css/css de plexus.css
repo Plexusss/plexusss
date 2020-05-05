@@ -50,13 +50,15 @@
 max-width: 48%;
 color:black;
  font-size: 16,8px;
+ line-height:19px;
 }
 
 h1{
   
- color:black;
+ color:#1E2E39;
  font-size: 22px;
  padding: 0%;
+ line-height: 55px;
 
 }
 
@@ -65,16 +67,19 @@ h2{
   color:black;
   font-size: 28px;
   padding: 0%;
+  line-height: 55px;
  }
  
  h3{
  
  font-size: 22px;
+ line-height: 55px;
 
 }
 h4{
   font-size: 16px;
-  color:#C4C4C4;
+  color:#1E2E39;
+  line-height: 55px;
 
 }
 

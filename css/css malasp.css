@@ -43,21 +43,19 @@
 #migas
 {
   font-size:13px ;
+ 
 }
 h1{
   font-size:28px;
-  line-height: 50px;
+  line-height: 20px;
   }
   h2{
     font-size:23px;
-    line-height: 80px;
+    line-height: 60px;
   }
   h3{
   font-size:18px ;
   }
-{
-  font-size: 13px;
-}
 
 .middle {
   grid-area: middle;
@@ -70,6 +68,7 @@ h1{
     max-width: 48%;
     font-size: 16,8px;
     -webkit-transform: translate(0,-24px);
+    line-height: 19px;
 }
 
 #boton{
