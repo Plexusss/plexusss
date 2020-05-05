@@ -78,7 +78,15 @@ h4{
 
 }
 
+.centrado{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: -40%;
+}
 
+}
 /*COLUMNA DEL LADO QUE SIRVE DE MARGEN*/
 /* Style the right column */
 .right {
